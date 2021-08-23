@@ -1,7 +1,0 @@
-"0","sponsors<-read_xlsx(""data/lpr sponsors.xlsx"") %>%
-  mutate(lpr_status=as.factor(case_when(`582 sponsor`==1 ~ ""581 Sponsor"",
-                                        `841 sponsor`==1 ~ ""841 Sponsor"",
-                                        `Not Sponsoring`==""Not Sponsoring"" ~ ""Not Sponsoring Either"")))
-"
-"2","Error: `path` does not exist: ‘data/lpr sponsors.xlsx’
-"
