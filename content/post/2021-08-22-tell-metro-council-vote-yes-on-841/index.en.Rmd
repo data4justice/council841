@@ -51,13 +51,15 @@ council_sponsors<-merge(council, district_members,
 factpal <- colorFactor(c("red", "light blue", "grey"), council_sponsors$lpr_status)
 
 labels<-sprintf(
-  "<strong>District %s</strong><br/>%s %s <br/>LPR Sponsor Status: %s <br/>Email: <a href = 'mailto: %s?subject=Support BL2021-841&body=Dear Council Member %s, Please support BL2021-841 [Your Name and Address]' >%s</a> <br/>Phone: %s",
+  "<strong>District %s</strong><br/>%s %s <br/>LPR Sponsor Status: %s <br/>Email: <a href = 'mailto: %s?subject=Support BL2021-841&body=Dear Council Member %s, %sPlease support BL2021-841. It is the better choice for Nashville. %s [Your Name and Address]' >%s</a> <br/>Phone: %s",
   council_sponsors$council_district, 
   council_sponsors$first_name, 
   council_sponsors$last_name, 
   council_sponsors$lpr_status, 
   council_sponsors$email_address, 
   council_sponsors$last_name,
+  "%0D%0A",
+  "%0D%0A",
   council_sponsors$email_address,
   council_sponsors$business_phone_number
 ) %>% lapply(htmltools::HTML)
@@ -88,14 +90,14 @@ m
 
 ### Not sponsoring either bill
 
-- [Email Sharon Hurt](mailto:Sharon.Hurt@nashville.gov?subject=Support%20BL2021-841&body=Dear%20Council%20Member%20Hurt,%20Please%20support%20BL2021-841.%20It%20is%20the%20better%20choice%20for%20Nashville.%20[Your%20Name%20and%20Address])
+- [Email Sharon Hurt](mailto:Sharon.Hurt@nashville.gov?subject=Support%20BL2021-841&body=Dear%20Council%20Member%20Hurt,%0D%0APlease%20support%20BL2021-841.%20It%20is%20the%20better%20choice%20for%20Nashville.%20%0D%0A[Your%20Name%20and%20Address])
 
-- [Email Burkley Allen](mailto:Burkley.Allen@nashville.gov?subject=Support%20BL2021-841&body=Dear%20Council%20Member%20Allen,%20Please%20support%20BL2021-841.%20It%20is%20the%20better%20choice%20for%20Nashville.%20[Your%20Name%20and%20Address])
+- [Email Burkley Allen](mailto:Burkley.Allen@nashville.gov?subject=Support%20BL2021-841&body=Dear%20Council%20Member%20Allen,%20%0D%0APlease%20support%20BL2021-841.%20It%20is%20the%20better%20choice%20for%20Nashville.%20%0D%0A[Your%20Name%20and%20Address])
 
-- [Email Steve Glover](mailto:Steve.Glover@nashville.gov?subject=Support%20BL2021-841&body=Dear%20Council%20Member%20Glover,%20Please%20support%20BL2021-841.%20It%20is%20the%20better%20choice%20for%20Nashville.%20[Your%20Name%20and%20Address])
+- [Email Steve Glover](mailto:Steve.Glover@nashville.gov?subject=Support%20BL2021-841&body=Dear%20Council%20Member%20Glover,%20%0D%0APlease%20support%20BL2021-841.%20It%20is%20the%20better%20choice%20for%20Nashville.%20%0D%0A[Your%20Name%20and%20Address])
 
 ### 841 sponsors
 
-- [Email Bob Mendes](mailto:Bob.Mendes@nashville.gov?subject=Support%20BL2021-841&body=Dear%20Council%20Member%20Mendes,%20Thank%20you%20for%20supporting%20BL2021-841%20[Your%20Name%20and%20Address])
+- [Email Bob Mendes](mailto:Bob.Mendes@nashville.gov?subject=Support%20BL2021-841&body=Dear%20Council%20Member%20Mendes,%20%0D%0AThank%20you%20for%20supporting%20BL2021-841%20%0D%0A[Your%20Name%20and%20Address])
 
-- [Email Zulfat Suara](mailto:Zulfat.Suara@nashville.gov?subject=Support%20BL2021-841&body=Dear%20Council%20Member%20MSuara,%20Thank%20you%20for%20supporting%20BL2021-841%20[Your%20Name%20and%20Address])
+- [Email Zulfat Suara](mailto:Zulfat.Suara@nashville.gov?subject=Support%20BL2021-841&body=Dear%20Council%20Member%20MSuara,%20%0D%0AThank%20you%20for%20supporting%20BL2021-841%20%0D%0A[Your%20Name%20and%20Address])
