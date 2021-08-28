@@ -1,13 +1,13 @@
 {
     "dialog-state": {
-        "query": "published_with",
+        "query": "author",
         "path": "",
         "regex": false,
         "caseSensitive": false,
         "wholeWord": false,
         "filePatterns": [],
         "excludeFilePatterns": [],
-        "resultsCount": 50,
+        "resultsCount": 297,
         "errorCount": 0,
         "replaceErrors": "",
         "projectRelative": true
