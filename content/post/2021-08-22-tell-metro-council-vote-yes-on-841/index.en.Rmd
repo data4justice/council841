@@ -19,7 +19,7 @@ projects: []
 
 Unfortunately, license plate readers (LPRs) are coming to Nashville and regulation is needed to protect privacy and not allow unfettered use. [BL2021-841](https://nashville.legistar.com/LegislationDetail.aspx?ID=5071327&GUID=DB6411EB-5FB9-47E3-B365-F0C9DFC0796D) strikes a balance between those who want to use LPRs to address crime and those who are concerned about privacy. Restricting LPR use to recovering stolen vehicles and felony offenses limits the potential for LPRs to be another tool of mass incarceration and the criminalization of Black and Brown people. 
 
-The other option, [BL2020-582](https://nashville.legistar.com/LegislationDetail.aspx?ID=4728845&GUID=DAF7D98A-E3BD-4BAF-BD72-84837C2EE4EE), allows LPR use for any crime, no matter how minor. 582 would allow for a vast expansion of police surveillance, even if the sponsors lie and say it won't. 
+The other option, [BL2020-582](https://nashville.legistar.com/LegislationDetail.aspx?ID=4728845&GUID=DAF7D98A-E3BD-4BAF-BD72-84837C2EE4EE), allows LPR use for any crime, no matter how minor. 582 would allow for a vast expansion of police surveillance. 
 
 [Learn more about LPRs from the Electronic Frontier Foundation](https://www.eff.org/pages/automated-license-plate-readers-alpr)
 
