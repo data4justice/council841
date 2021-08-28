@@ -6,9 +6,15 @@ HUGO_VERSION = "0.79.0"
 
 [context]
 [context.branch-deploy]
+<<<<<<< HEAD
 command = "hugo --gc --minify -b $URL"
 [context.deploy-preview]
 command = "hugo --gc --minify -b $URL"
+=======
+command = "hugo -F -b $DEPLOY_PRIME_URL"
+[context.deploy-preview]
+command = "hugo -F -b $DEPLOY_PRIME_URL"
+>>>>>>> 7616e49e337f8b748b974883bec8743a653fe128
 [context.production]
 [context.production.environment]
 HUGO_ENV = "production"
